@@ -91,15 +91,8 @@
         bgMusic.loop = true; bgMusic.volume = 1.0;
 
         const loader = new THREE.TextureLoader();
-        const MUSIC_URL = "./audio/audio.mp3";
-
-const photoFiles = [
-  "./images/image1.JPG",
-  "./images/image2.JPG",
-  "./images/image3.JPG",
-  "./images/image4.JPG",
-  "./images/image5.JPG"
-];
+        const MUSIC_URL = "./audio/audio.const photoFiles = [
+        const photoFiles = ["https://picsum.photos/300","https://picsum.photos/301","https://picsum.photos/302","https://picsum.photos/303","https://picsum.photos/304"];
         const photoTextures = [];
         photoFiles.forEach((f, i) => photoTextures[i] = loader.load(f));
 
